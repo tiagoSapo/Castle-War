@@ -1,7 +1,7 @@
 #include "Castle.h"
 
-int main() {
-
+int main()
+{
 	Castle *c = new Castle();
 	c->start();
 
