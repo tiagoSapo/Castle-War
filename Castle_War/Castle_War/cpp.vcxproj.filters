@@ -15,6 +15,35 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Caracteristica.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Castle.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Celula.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Colonia.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Edificio.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Header.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Matriz.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Perfil.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Ser.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="Caracteristica.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -42,42 +71,5 @@
     <ClCompile Include="Ser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Caracteristica.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Castle.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Celula.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Colonia.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Edificio.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Header.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Matriz.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Perfil.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Ser.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="cpp.vcxproj">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="cpp.vcxproj.filters">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
 </Project>

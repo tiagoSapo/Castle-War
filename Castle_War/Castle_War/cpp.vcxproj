@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C839D3E5-6847-4476-A51F-C0817CDAB817}</ProjectGuid>
+    <ProjectGuid>{163F5104-7269-4865-926C-BC784B588457}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Castle_War</RootNamespace>
+    <RootNamespace>cpp</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,6 +142,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="Caracteristica.h" />
+    <None Include="Castle.h" />
+    <None Include="Celula.h" />
+    <None Include="Colonia.h" />
+    <None Include="Edificio.h" />
+    <None Include="Header.h" />
+    <None Include="Matriz.h" />
+    <None Include="Perfil.h" />
+    <None Include="Ser.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="Caracteristica.cpp" />
     <ClCompile Include="Castle.cpp" />
     <ClCompile Include="Celula.cpp" />
@@ -151,21 +162,6 @@
     <ClCompile Include="Matriz.cpp" />
     <ClCompile Include="Perfil.cpp" />
     <ClCompile Include="Ser.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Caracteristica.h" />
-    <ClInclude Include="Castle.h" />
-    <ClInclude Include="Celula.h" />
-    <ClInclude Include="Colonia.h" />
-    <ClInclude Include="Edificio.h" />
-    <ClInclude Include="Header.h" />
-    <ClInclude Include="Matriz.h" />
-    <ClInclude Include="Perfil.h" />
-    <ClInclude Include="Ser.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="cpp.vcxproj" />
-    <None Include="cpp.vcxproj.filters" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
